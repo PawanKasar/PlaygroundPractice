@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/_5sdp">
+
+        <ImageView
+                android:id="@+id/imgv_artistImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_margin="@dimen/_5sdp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/tv_songName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Songs Name"
+                    android:layout_marginTop="@dimen/_5sdp"/>
+
+            <TextView
+                android:id="@+id/tv_artistName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artist Name"
+                android:layout_marginTop="@dimen/_5sdp"/>
+
+            <TextView
+                    android:id="@+id/tv_collectionName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Collection Name"
+                    android:layout_marginTop="@dimen/_5sdp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
