@@ -8,6 +8,14 @@ import java.util.List;
 
 public class MjSongsModel {
 
+    @Override
+    public String toString() {
+        return "MjSongsModel{" +
+                "resultCount=" + resultCount +
+                ", results=" + results +
+                '}';
+    }
+
     @SerializedName("resultCount")
     @Expose
     private Integer resultCount;

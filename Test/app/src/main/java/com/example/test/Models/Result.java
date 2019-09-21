@@ -108,6 +108,46 @@ public class Result {
     @Expose
     private String collectionArtistViewUrl;
 
+    @Override
+    public String toString() {
+        return "Result{" +
+                "wrapperType='" + wrapperType + '\'' +
+                ", kind='" + kind + '\'' +
+                ", artistId=" + artistId +
+                ", collectionId=" + collectionId +
+                ", trackId=" + trackId +
+                ", artistName='" + artistName + '\'' +
+                ", collectionName='" + collectionName + '\'' +
+                ", trackName='" + trackName + '\'' +
+                ", collectionCensoredName='" + collectionCensoredName + '\'' +
+                ", trackCensoredName='" + trackCensoredName + '\'' +
+                ", artistViewUrl='" + artistViewUrl + '\'' +
+                ", collectionViewUrl='" + collectionViewUrl + '\'' +
+                ", trackViewUrl='" + trackViewUrl + '\'' +
+                ", previewUrl='" + previewUrl + '\'' +
+                ", artworkUrl30='" + artworkUrl30 + '\'' +
+                ", artworkUrl60='" + artworkUrl60 + '\'' +
+                ", artworkUrl100='" + artworkUrl100 + '\'' +
+                ", collectionPrice=" + collectionPrice +
+                ", trackPrice=" + trackPrice +
+                ", releaseDate='" + releaseDate + '\'' +
+                ", collectionExplicitness='" + collectionExplicitness + '\'' +
+                ", trackExplicitness='" + trackExplicitness + '\'' +
+                ", discCount=" + discCount +
+                ", discNumber=" + discNumber +
+                ", trackCount=" + trackCount +
+                ", trackNumber=" + trackNumber +
+                ", trackTimeMillis=" + trackTimeMillis +
+                ", country='" + country + '\'' +
+                ", currency='" + currency + '\'' +
+                ", primaryGenreName='" + primaryGenreName + '\'' +
+                ", isStreamable=" + isStreamable +
+                ", collectionArtistId=" + collectionArtistId +
+                ", collectionArtistName='" + collectionArtistName + '\'' +
+                ", collectionArtistViewUrl='" + collectionArtistViewUrl + '\'' +
+                '}';
+    }
+
     public String getWrapperType() {
         return wrapperType;
     }
